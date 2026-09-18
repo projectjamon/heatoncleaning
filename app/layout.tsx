@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Sora, Work_Sans } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { GoogleTagManagerHead, GoogleTagManagerBody } from "@/components/layout/GoogleTagManager";
 import { site } from "@/lib/data/site";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+const workSans = Work_Sans({ subsets: ["latin"], variable: "--font-work-sans" });
+const sora = Sora({ subsets: ["latin"], weight: ["600", "700"], variable: "--font-sora" });
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
@@ -25,7 +26,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={inter.variable}>
+    <html lang="en" className={`${workSans.variable} ${sora.variable}`}>
       <head>
         <GoogleTagManagerHead />
       </head>

@@ -59,7 +59,10 @@ export function HeroCarousel() {
               <div className="absolute inset-0 flex items-center">
                 <div className="mx-auto max-w-6xl px-6">
                   <div className="max-w-xl text-white">
-                    <h1 className="text-3xl font-bold sm:text-5xl">{slide.heading}</h1>
+                    <span className="mb-4 inline-block rounded-full border border-white/50 bg-white/10 px-3.5 py-1.5 text-[11px] font-semibold uppercase tracking-widest">
+                      Locally Owned · Ogden, UT
+                    </span>
+                    <h1 className="text-4xl font-bold leading-tight sm:text-5xl">{slide.heading}</h1>
                     <p className="mt-4 text-lg text-brand-50">{slide.body}</p>
                     <Link
                       href="/contact/"

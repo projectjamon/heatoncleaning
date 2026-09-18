@@ -1,24 +1,35 @@
 @import "tailwindcss";
 
 @theme {
-  --color-brand-50: #eff8fb;
-  --color-brand-100: #d9eef4;
-  --color-brand-200: #b3dde9;
-  --color-brand-300: #80c5d8;
-  --color-brand-400: #4aa7c1;
-  --color-brand-500: #2b87a3;
-  --color-brand-600: #1f6c85;
-  --color-brand-700: #1c576c;
-  --color-brand-800: #1b485a;
-  --color-brand-900: #1a3d4c;
+  /* Blue family, sampled from the real logo's blue-to-white gradient
+     down to its dark-navy ink at the top end. */
+  --color-brand-50: #f5f8fc;
+  --color-brand-100: #e3e9f2;
+  --color-brand-200: #c7d4e8;
+  --color-brand-300: #9fb3d9;
+  --color-brand-400: #6e8cc2;
+  --color-brand-500: #4677ae;
+  --color-brand-600: #2c5c9e;
+  --color-brand-700: #244a80;
+  --color-brand-800: #1d3a64;
+  --color-brand-900: #16233a;
 
-  --color-accent-400: #f5a84a;
-  --color-accent-500: #ef8f21;
-  --color-accent-600: #d9741a;
+  /* Red family, from the logo's "Cleaning Services" wordmark — held in
+     reserve for the one primary call-to-action per screen. */
+  --color-accent-400: #e5646a;
+  --color-accent-500: #c7282e;
+  --color-accent-600: #a61f24;
 
-  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-work-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-heading: var(--font-sora), ui-sans-serif, system-ui, sans-serif;
 }
 
 body {
   color: var(--color-brand-900);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: -0.01em;
 }
