@@ -8,7 +8,7 @@ export function CityPageTemplate({ city }: { city: City }) {
     <>
       <section className="relative">
         <div className="relative h-[320px] w-full sm:h-[400px]">
-          <Image src={city.heroImage} alt={city.heroImageAlt} fill unoptimized priority className="object-cover" />
+          <Image src={city.heroImage} alt={city.heroImageAlt} fill priority className="object-cover" />
           <div className="absolute inset-0 bg-brand-900/55" />
         </div>
         <div className="absolute inset-0 flex items-center">

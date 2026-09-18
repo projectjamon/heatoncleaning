@@ -7,7 +7,7 @@ export function ServicePageTemplate({ service }: { service: Service }) {
     <>
       <section className="relative">
         <div className="relative h-[320px] w-full sm:h-[400px]">
-          <Image src={service.heroImage} alt={service.heroImageAlt} fill unoptimized priority className="object-cover" />
+          <Image src={service.heroImage} alt={service.heroImageAlt} fill priority className="object-cover" />
           <div className="absolute inset-0 bg-brand-900/55" />
         </div>
         <div className="absolute inset-0 flex items-center">

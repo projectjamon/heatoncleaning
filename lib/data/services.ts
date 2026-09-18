@@ -26,7 +26,7 @@ export const services: Service[] = [
     tagline: "A top-to-bottom clean that goes past the weekly routine.",
     metaDescription:
       "Professional deep cleaning services in Ogden, UT and the surrounding area — baseboards, grout, appliances, and every corner your regular clean skips.",
-    heroImage: "/images/service-deep-cleaning.svg",
+    heroImage: "/images/service-deep-cleaning.jpg",
     heroImageAlt: "Technician deep cleaning a kitchen",
     intro:
       "Deep cleaning is the reset button for your home — the detail work that a regular maintenance clean doesn't have time for. We work room by room so nothing gets missed.",
@@ -66,7 +66,7 @@ export const services: Service[] = [
     tagline: "Streak-free windows, inside and out, for your home.",
     metaDescription:
       "Residential window cleaning in Ogden and West Haven, UT — interior and exterior glass, screens, and sills cleaned safely by trained technicians.",
-    heroImage: "/images/service-residential-windows.svg",
+    heroImage: "/images/service-residential-windows.jpg",
     heroImageAlt: "Technician cleaning a home's exterior windows",
     intro:
       "Clean windows change how light moves through a house. We clean residential glass inside and out, including screens and tracks, with a process built around your family's schedule and safety.",
@@ -105,7 +105,7 @@ export const services: Service[] = [
     tagline: "Clean storefronts and office glass on a schedule that works around your business.",
     metaDescription:
       "Commercial window cleaning for offices, storefronts, and multi-story buildings in the Ogden, UT area. Fully insured technicians, flexible scheduling, maintenance contracts available.",
-    heroImage: "/images/service-commercial-windows.svg",
+    heroImage: "/images/service-commercial-windows.jpg",
     heroImageAlt: "Technician cleaning storefront glass on a commercial building",
     intro:
       "Storefront and office glass takes a different kind of beating than residential windows — street-level dust, fingerprints, and signage smudges that are visible to every customer who walks by. Our commercial service is built around your building and your business hours, not a residential template.",
@@ -144,7 +144,7 @@ export const services: Service[] = [
     tagline: "Clear gutters and downspouts before clogs become water damage.",
     metaDescription:
       "Gutter cleaning services in Ogden, UT — debris removal, downspout flushing, and a visual roofline check to catch problems before they become expensive.",
-    heroImage: "/images/service-gutter-cleaning.svg",
+    heroImage: "/images/service-gutter-cleaning.jpg",
     heroImageAlt: "Technician clearing debris from a home's gutters",
     intro:
       "Clogged gutters send water where it doesn't belong — into fascia boards, foundations, and basements. We clear gutters and downspouts by hand and flush the system to confirm water actually flows where it's supposed to.",
@@ -182,7 +182,7 @@ export const services: Service[] = [
     tagline: "The seasonal reset that gets your whole home ready for the year ahead.",
     metaDescription:
       "Spring cleaning services in Ogden, UT — a whole-home seasonal deep clean covering windows, baseboards, and every room, done in a single visit.",
-    heroImage: "/images/service-spring-cleaning.svg",
+    heroImage: "/images/service-spring-cleaning.jpg",
     heroImageAlt: "Technician spring cleaning a bright living room",
     intro:
       "Spring cleaning is a whole-home seasonal reset — every room, done in one coordinated visit, so you're not chipping away at a to-do list all season.",
@@ -221,7 +221,7 @@ export const services: Service[] = [
     tagline: "Restore driveways, siding, decks, and walkways without damaging the surface underneath.",
     metaDescription:
       "Power washing services in Ogden, UT for driveways, siding, decks, and walkways — pressure calibrated to the surface to lift dirt without damage.",
-    heroImage: "/images/service-power-washing.svg",
+    heroImage: "/images/service-power-washing.jpg",
     heroImageAlt: "Technician power washing a concrete driveway",
     intro:
       "Years of dirt, algae, and mildew build up on exterior surfaces gradually enough that you stop noticing — until a power wash shows you the actual color of your driveway again. We calibrate pressure to the surface so you get the buildup off, not the surface itself.",
@@ -259,7 +259,7 @@ export const services: Service[] = [
     tagline: "Construction dust and debris cleared so the space is ready to actually use.",
     metaDescription:
       "Post-construction cleaning in Ogden, UT for remodels, additions, and new builds — dust, debris, and residue removed room by room. Free checklist download.",
-    heroImage: "/images/service-post-construction.svg",
+    heroImage: "/images/service-post-construction.jpg",
     heroImageAlt: "Technician cleaning a newly renovated room after construction",
     intro:
       "Construction dust gets everywhere — into vents, on every horizontal surface, ground into new flooring. Post-construction cleanup is a different job than routine cleaning, and we treat it that way, working room by room with equipment built for fine dust and debris.",
@@ -299,7 +299,7 @@ export const services: Service[] = [
     tagline: "Dust and debris quietly cut solar output — a clean panel is a producing panel.",
     metaDescription:
       "Professional solar panel cleaning in Ogden, UT. Dust, pollen, and bird debris removed with soft-water, non-abrasive methods that protect your panel warranty.",
-    heroImage: "/images/service-solar-panel.svg",
+    heroImage: "/images/service-solar-panel.jpg",
     heroImageAlt: "Technician cleaning a residential solar panel array",
     intro:
       "Solar panels lose efficiency gradually as dust, pollen, and bird debris accumulate — often enough to notice on your utility bill before you notice it by looking at the roof. We clean panels with soft, non-abrasive methods designed to protect the glass and your manufacturer's warranty.",

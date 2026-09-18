@@ -7,19 +7,19 @@ import { useCallback, useEffect, useState } from "react";
 
 const slides = [
   {
-    image: "/images/hero-slide-1.svg",
+    image: "/images/hero-slide-1.jpg",
     alt: "Extreme Cleaning Services team at work",
     heading: "Cleaning That Lives Up To Its Name",
     body: "Deep cleaning, window cleaning, and more for homes and businesses in Ogden, UT.",
   },
   {
-    image: "/images/hero-slide-2.svg",
+    image: "/images/hero-slide-2.jpg",
     alt: "Technician cleaning exterior windows",
     heading: "Streak-Free Windows, Inside And Out",
     body: "Residential and commercial window cleaning from a trained, insured crew.",
   },
   {
-    image: "/images/hero-slide-3.svg",
+    image: "/images/hero-slide-3.jpg",
     alt: "Freshly cleaned living room",
     heading: "A Home That Feels As Good As It Looks",
     body: "Reliable, professional service — scheduled around your life, not the other way around.",
@@ -53,7 +53,7 @@ export function HeroCarousel() {
           {slides.map((slide) => (
             <div key={slide.heading} className="relative min-w-0 flex-[0_0_100%]">
               <div className="relative h-[420px] w-full sm:h-[520px]">
-                <Image src={slide.image} alt={slide.alt} fill unoptimized priority className="object-cover" />
+                <Image src={slide.image} alt={slide.alt} fill priority className="object-cover" />
                 <div className="absolute inset-0 bg-brand-900/50" />
               </div>
               <div className="absolute inset-0 flex items-center">

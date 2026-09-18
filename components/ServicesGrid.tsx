@@ -12,7 +12,7 @@ export function ServicesGrid() {
           className="group overflow-hidden rounded-xl border border-brand-100 transition hover:shadow-lg"
         >
           <div className="relative h-40 w-full">
-            <Image src={s.heroImage} alt={s.heroImageAlt} fill unoptimized className="object-cover" />
+            <Image src={s.heroImage} alt={s.heroImageAlt} fill className="object-cover" />
           </div>
           <div className="p-5">
             <h3 className="font-semibold text-brand-900 group-hover:text-brand-600">{s.title}</h3>

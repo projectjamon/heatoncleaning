@@ -14,7 +14,7 @@ export const cities: City[] = [
     slug: "ogden",
     name: "Ogden",
     state: "UT",
-    heroImage: "/images/city-ogden.svg",
+    heroImage: "/images/city-ogden.jpg",
     heroImageAlt: "Extreme Cleaning Services technician working at a home in Ogden, UT",
     metaDescription:
       "Extreme Cleaning Services is based in Ogden, UT and offers deep cleaning, window cleaning, gutter cleaning, power washing, and more throughout the Ogden area.",
@@ -27,7 +27,7 @@ export const cities: City[] = [
     slug: "west-haven",
     name: "West Haven",
     state: "UT",
-    heroImage: "/images/city-west-haven.svg",
+    heroImage: "/images/city-west-haven.jpg",
     heroImageAlt: "Extreme Cleaning Services technician working at a home in West Haven, UT",
     metaDescription:
       "Extreme Cleaning Services proudly serves West Haven, UT with deep cleaning, window cleaning, gutter cleaning, power washing, and more.",

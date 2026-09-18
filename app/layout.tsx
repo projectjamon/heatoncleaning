@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: site.name,
-    images: ["/images/og-default.svg"],
+    images: ["/images/og-default.jpg"],
   },
 };
 
