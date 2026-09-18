@@ -14,7 +14,7 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b border-brand-100 bg-white/95 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3">
         <Link href="/" className="flex items-center gap-2 shrink-0">
-          <Image src="/images/logo.svg" alt={site.name} width={160} height={44} priority unoptimized />
+          <Image src="/images/logo.png" alt={site.name} width={105} height={48} priority />
         </Link>
 
         <nav className="hidden lg:flex items-center gap-6" aria-label="Main">

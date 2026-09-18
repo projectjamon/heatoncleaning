@@ -102,28 +102,21 @@ export function Footer() {
             href={site.partner.href}
             target="_blank"
             rel="noopener noreferrer"
-            className="mb-4 inline-block rounded bg-white/5 p-2"
+            className="mb-4 inline-block rounded-lg bg-white p-2.5"
           >
-            <Image
-              src="/images/partner-healthy-homes.svg"
-              alt={site.partner.name}
-              width={140}
-              height={42}
-              unoptimized
-            />
+            <Image src="/images/partner-healthy-homes.png" alt={site.partner.name} width={90} height={57} />
           </a>
           <a
             href={site.charity.href}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block rounded bg-white/5 p-2"
+            className="inline-block rounded-lg bg-white p-2.5"
           >
             <Image
-              src="/images/badge-cleaning-for-a-reason.svg"
+              src="/images/badge-cleaning-for-a-reason.png"
               alt={`Proud sponsor of ${site.charity.name}`}
-              width={120}
-              height={45}
-              unoptimized
+              width={64}
+              height={64}
             />
           </a>
 
